@@ -1,9 +1,11 @@
 <?php
   $args = array('role'=>'author'); 
   $users = get_users($args);
+//var_dump(count($users));
+if(!count($users)==0){
   foreach($users as $user){
     $cause_meta = get_user_meta($user->data->ID); 
-    $cause_avatar = $cause_meta['upme_user_pic_thumb'][0] ? $cause_meta['upme_user_pic_thumb'][0] : 'http://1.gravatar.com/avatar/72c354ec39b352bd9cb7d07d7bc324e7?s=50&d=mm&r=g';
+    $cause_avatar = $cause_meta['upme_user_pic_thumb'][0] ? $cause_meta['upme_user_pic_thumb'][0] : '/wp-content/uploads/2016/10/default-user.jpg';
 ?>
   <div class="cause-avatar left"><img style="width: 32px;" src="<?php echo $cause_avatar; ?>" /></div>
   <div class="cause-info left" style="margin-left: 10px; margin-top: -2px;">
@@ -15,5 +17,8 @@
   </div>
   <div class="clear"></div>        
 <?php }
+}else{
+	echo 'None yet.';
+}
 //var_dump($users);
 ?>

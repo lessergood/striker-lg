@@ -35,7 +35,7 @@ function parent_override() {
   
   function cherrypick_child_enqueue_css(){
       wp_register_style( 'striker-lg-stylesheet', get_stylesheet_uri(),array(),rand(111,9999));
-	wp_register_style( 'lg-stylesheet', 'http://lessergood.org/wp-content/themes/striker-lg/lg-styles.css',array(),rand(111,9999));
+	wp_register_style( 'lg-stylesheet', '/wp-content/themes/striker-lg/lg-styles.css',array(),rand(111,9999));
       wp_enqueue_style( 'striker-lg-stylesheet');
 	wp_enqueue_style( 'lg-stylesheet');
 	  //wp_register_style('bootstrap','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');

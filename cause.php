@@ -8,7 +8,7 @@
 		<?php 		
 		$loggedin_user = wp_get_current_user();
 		$loggedin_user_causes = get_user_meta(get_current_user_id(),'causes',true);
-		$cause_avatar = $user_meta['upme_user_pic_thumb'][0] ? $user_meta['upme_user_pic_thumb'][0] : 'http://1.gravatar.com/avatar/72c354ec39b352bd9cb7d07d7bc324e7?&d=mm&r=g'; 
+		$cause_avatar = $user_meta['user_pic'][0] ? $user_meta['user_pic'][0] : '/wp-content/uploads/2016/10/default-user.jpg'; 
 		?>
 		<div id="primary" class="content-area">
 		  	<div class="clear"></div>

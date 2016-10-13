@@ -3,7 +3,7 @@ $user = get_currentuserinfo();
 $username = $user->user_login;
 $user_displayname = $user->display_name;
 $user_meta = get_user_meta($user->ID);
-$user_avatar = $user_meta['upme_user_pic_thumb'][0] ? $user_meta['upme_user_pic_thumb'][0] : 'http://1.gravatar.com/avatar/72c354ec39b352bd9cb7d07d7bc324e7?s=50&d=mm&r=g';
+$user_avatar = $user_meta['user_pic'][0] ? $user_meta['user_pic'][0] : '/wp-content/uploads/2016/10/default-user.jpg';
 ?>
 <?php if(is_user_logged_in()){ ?>
 <div id="secondary">
@@ -23,7 +23,7 @@ $user_avatar = $user_meta['upme_user_pic_thumb'][0] ? $user_meta['upme_user_pic_
 		?>
 			<a href="/author/<?php echo $username; ?>"><i class="fa fa-fw fa-bolt"></i>&nbsp;My Causes</a>
 	 	<?php }else{ ?>
-	 		<a href="/author/<?php echo $username; ?>"><i class="fa fa-fw fa-flag"></i>&nbsp;Cause Home</a>
+	 		<a href="/author/<?php echo $username; ?>"><i class="fa fa-fw fa-flag"></i>&nbsp;Cause</a>
 	  	<?php } ?>
 	  <a href="/profile"><i class="fa fa-fw fa-user"></i>&nbsp;Profile</a>
 		<?php if(current_user_can('publish_posts')){ ?>
