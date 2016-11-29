@@ -1,4 +1,3 @@
-<?php get_header(); ?>
 <?php
 $args = array('post_type'=>'need');
 $qry = new WP_Query($args); 
