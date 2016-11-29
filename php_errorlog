@@ -303,3 +303,5 @@
 [28-Nov-2016 11:39:47 UTC] PHP Fatal error:  Call to a member function have_posts() on null in /home/lessergo/public_html/wp-content/themes/striker-lg/content-loop.php on line 3
 [29-Nov-2016 01:38:35 UTC] PHP Fatal error:  Call to a member function have_posts() on null in /home/lessergo/public_html/wp-content/themes/striker-lg/content-loop.php on line 3
 [28-Nov-2016 20:39:00 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/lessergo/public_html/index.php on line 1
+[28-Nov-2016 20:43:55 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/lessergo/public_html/index.php on line 1
+[28-Nov-2016 20:44:02 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/lessergo/public_html/index.php on line 1
