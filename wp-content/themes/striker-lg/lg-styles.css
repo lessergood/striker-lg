@@ -1,0 +1,177 @@
+/*
+Fonts Used:
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'bebas_neueregular', sans-serif;
+
+*/
+.fullwidth{width: 100%}
+.toolong{
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+.gray{color: #A9A9A9;}
+.thin{border: 1px #C0C0C0}
+.fl-module{margin-top: 0px; margin-bottom: 0px;}
+.fl-module-content{margin-top: 5px; margin-bottom: 5px;}
+.fl-module-content h2{margin: 5px;}
+
+table.callouts{
+ border: none;
+ font-size: 13px !important;
+}
+
+table.callouts td{
+	font-size: 14px;
+  line-spacing: 1.4em;
+}
+#content-full{margin: 0px 20px;}
+p{font-size: 16px;}
+.widget-title{border-radius: 0px;}
+.widget h3.widget-title{margin: 0px;}
+.widget .followed-causes h3.widget-title{margin: 0px 0px 10px 0px;}
+.widget-content{line-height: 1.5em;}
+.left{float: left;}
+.right{float: right;}
+.nostyle{background: transparent !important; border: 0px;}
+.btn-blue{background: #0094FF; color: #FFF; font-weight: bold;}
+.btn-navy{background: #00137F; color: #FFF; font-weight: bold;}
+.site-info{color: #FFF; font-size: 18px;}
+.site-logo{float: left; width:90px; padding-top: 15px;}
+.site-introduction{float: left;}
+#secondary{background: none; margin-top: 0px;}
+/* Cause */
+div{border: 0px solid blue;}
+.causes-list{padding: 20px 50px 20px 100px;}
+.causes-list div,.causes-list h2{font-size: 1.3em;}
+.cause-content{margin-left: 0px; padding-bottom: 20px;  margin-bottom: 20px; border-bottom: 3px solid rgba(0,0,0,0.1);}
+.cause-avatar img{border-radius: 5px;}
+.cause-bio{margin-top: 10px; line-height: 1.3em; word-wrap: break-word; max-width: 600px; }
+.cause-info{margin-left: 20px; line-height: 1.3em;}
+.cause-contact{width: 150px; margin-left: 100px;}
+.cause-name{margin: 0px; line-height: 1.3em;}
+.cause-org-name{line-height: 1.3em;}
+.cause-link{text-align: left; text-transform: lowercase; font-family: 'bebas_neueregular', sans-serif !important;}
+.cause-link a{font-size: 20px; line-height: 1.1em; font-weight: bold; text-decoration: none; text-transform: lowercase !important;}
+.account-menu-container #secondary{background: #000; color: #FFF; font-size: 18px; line-height: 1.3em; margin: 0px; padding: 0px auto;}
+.account-menu-container #secondary h3.menu-title{height: 32px; text-align: right; margin: 5px 15px 0px 0px !important; width: 300px; float: right; pointer: cursor !important; font-size: 18px;}
+.account-menu-container #secondary h3.menu-title button{font-family: 'bebas_neueregular', sans-serif !important; font-size: 18px; margin-top: -10px; outline: none; color: #FFF;}
+.account-menu-links{
+	display: none;
+  width: 150px;
+  border-radius: 5px;
+  float: left;
+  position: absolute;
+  margin-left: -110px;
+  background: #000;
+  margin-top: 35px;
+  z-index: 997;
+}
+.account-menu-container #secondary .account-menu-avatar img{position: relative; float: right; width: 32px; margin-top: -35px; border-radius: 5px; display: inline-block;}
+/* Need Tags */
+.need-tags{padding-top: 5px; float: left;}
+.need-tags:after{clear: both;}
+.need-tags a{margin: 0px 5px 0px 0px;}
+.need-desc{line-height: 1.3em;}
+/* TAG ACTIONS */
+.need-actions .tag{
+  width: 80px;margin: 3px 10px 5px 0px;padding: 3px 10px;border-radius: 5px 5px 0px 0px;text-align: center;color: #FFF;font-size: 14px;font-weight: bold;margin-bottom: -1px;
+}
+.tag-sm{
+  width: 60px;margin: 0px 10px 0px 0px;padding: 2px 5px;border-radius: 3px;text-align: center;color: #FFF;font-size: 10px;font-weight: bold;float: left;
+}
+.tag-desc{padding: 10px 10px;}
+.tag-prayer-desc{font-size: 14px; border:1px solid purple;}
+.tag-items-desc{font-size: 14px; border:1px solid #0094FF;}
+.tag-finances-desc{font-size: 14px; border:1px solid green;}
+.tag-volunteers-desc{font-size: 14px; border:1px solid red;}
+.tag-share-desc{border:1px solid orange; padding-bottom: 0px !important;}
+.tag-study-desc{border:1px solid #FFD700; padding-bottom: 0px !important;}
+.tag-share-desc p{display: none;}
+.tag-prayer{background: purple;}
+.tag-items{background: #0094FF;}
+.tag-finances{background: green;}
+.tag-serve{background: red;}
+.tag-share{background: orange;}
+.tag-study{background: #FFD700;}
+
+/* Cause Content */
+.cause-content .posts{margin: 0px;}
+.cause-content .post{ padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(0,0,0,0.1);}
+.cause-content .post:last-child{border-bottom: 0px;}
+
+/* ACF FORM */
+#acf-edit-form{padding: 20px;}
+#acf-edit-form .post .acf-input button[type=button].button{background: #f7f7f7 !mportant;}
+#acf-edit-form .acf-form-submit{padding: 0px 10px;}
+#acf-edit-form .acf-button{background: #0094FF; color: #FFF; font-weight: bold;}
+
+#acf-add-form{padding: 20px;}
+#acf-add-form .post .acf-input button[type=button].button{background: #f7f7f7 !mportant;}
+#acf-add-form .acf-form-submit{padding: 0px 10px;}
+#acf-add-form .acf-button{background: #0094FF; color: #FFF; font-weight: bold;}
+
+
+/* Search */
+#searchform{width: 100%; text-align: center;}
+#author_name{width: 300px; padding: 10px 10px; margin: 0 auto; border: 1px solid #0094FF; border-radius: 5px;}
+
+.blue-box{background: #0094FF; color: #FFF; padding: 0px 10px; text-align: center; font-size: 28px; margin-top: 0px;}
+#main{height: 100% !important;}
+.site-info{padding: 10px;}
+.direct-link-detail{font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.direct-link-detail b{text-transform: capitalize;}
+
+
+/* POST */
+.posts{padding-top: 20px;}
+.post{padding: 20px 0px 30px 0px; border-bottom: 1px solid #CCCCCC;}
+h1.post-title{margin-top: -2px; margin-bottom: -2px; font-size: 28px; line-height: 28px;}
+h1.post-title a{text-decoration: none; cursor: pointer; color: #0094FF;}
+.post:first-child{padding-top: 0px;}
+.post-avatar{}
+.post-avatar img{border-radius: 5px;}
+.post-meta{margin-left: 10px; font-size: 11px;}
+.post-content{margin-top: 10px;}
+
+/*BLOG */
+.type-post h2.entry-title a{font-size: 36px; color: #0094FF;}
+.blog-content{font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.7em;}
+.type-post .blog-content h2{color: #A9A9A9;}
+
+/* PAYPAL DONATION */
+.lg-donate-title{border-bottom: 2px solid #000; padding-bottom: 3px; font-size: 1.8rem;}
+
+/* MEDIA QUERIES FOR MOBILE */
+@media (max-width: 1040px) {
+	.blue-box{font-size: 20px; line-height: 1.2em; padding: 5px 30px;}
+	.blue-box .second-line{display: block;}
+}
+
+@media (max-width: 800px) {
+	.blue-box{font-size: 20px; line-height: 1.2em; padding: 5px 30px;}
+	.blue-box .second-line{display: block;}
+}
+
+@media (max-width: 700px) {
+.site-logo{margin-left: 50px;}
+.site-logo img{width: 50px;}
+.site-introduction{padding: 0px 20px 10px 0px;}
+.site-main{margin-top: -5px;}
+	.blue-box{font-size: 20px; line-height: 1.2em; padding: 5px 30px;}
+	.blue-box .second-line{display: block;}
+.account-menu-container{height: 0px;}
+	.account-menu-container #secondary{width: 100%; display: block; height: 40px; margin: -40px 0px 0px 0px; left: 0px; background: transparent; }
+.account-menu-container #secondary .account-menu-avatar{padding-right: 10px;}
+.account-menu-container #secondary .account-menu-avatar img{width: 26px; padding-top: 2px;}
+.account-menu-links{margin-left: 40px; float: right; width: 70%; font-size: .9em; padding: 5px; line-height: 1.7em;}
+.account-menu-links a{color: #fff; display: block; text-decoration: none;}
+.menu-toggle{text-align: left; padding-left: 10px;}
+.menu-title{width: 100%; text-align: left;}
+.cause-contact{margin-left: 0px; left: 20px; position: relative; float: left;}
+}
+
+@media (max-width: 500px) {
+	.blue-box{font-size: 20px; line-height: 1.2em; padding: 5px 30px;}
+	.blue-box .second-line{display: block;}
+}

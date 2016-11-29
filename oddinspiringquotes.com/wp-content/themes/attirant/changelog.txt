@@ -1,0 +1,13 @@
+Version 1.0.7.2
+
+	- Initial Release
+
+Version 1.1
+
+	- Screenshot Changed
+	- Default Title Color Changed
+
+Version 1.2
+
+	- Changed the color bug for site titles in post pages
+	- Updated Font Awesome and Bootstrap

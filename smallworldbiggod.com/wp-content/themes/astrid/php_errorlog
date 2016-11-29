@@ -1,0 +1,3 @@
+[19-Sep-2016 01:52:46 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/lessergo/public_html/smallworldbiggod.com/wp-content/themes/astrid/index.php on line 15
+[19-Sep-2016 01:53:03 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/lessergo/public_html/smallworldbiggod.com/wp-content/themes/astrid/index.php on line 15
+[31-Oct-2016 04:53:04 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/lessergo/public_html/smallworldbiggod.com/wp-content/themes/astrid/index.php on line 15

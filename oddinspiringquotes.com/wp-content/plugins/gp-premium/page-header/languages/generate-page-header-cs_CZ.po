@@ -1,0 +1,748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Generate Page Header\n"
+"POT-Creation-Date: 2016-07-24 21:47+0200\n"
+"PO-Revision-Date: 2016-07-24 21:58+0200\n"
+"Last-Translator: Foxtrot <foxtrot@foxtrot.me>\n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/admin-page-framework\n"
+
+#: functions/controls.php:7
+msgid "Apply image sizes"
+msgstr "Použít velikosti obrázku"
+
+#: functions/customizer.php:13
+msgid "Blog Page Header"
+msgstr "Hlavička stránky blogu"
+
+#: functions/customizer.php:29 functions/metabox.php:100
+#: functions/metabox.php:102
+msgid "Page Header Image"
+msgstr "Obrázek hlavičky stránky"
+
+#: functions/customizer.php:51
+msgid "Image"
+msgstr "Obrázek"
+
+#: functions/customizer.php:52
+msgid "Upload an image to be used as your page header."
+msgstr "Nahrajte obrázek, který bude použit jako vaše hlavička stránky."
+
+#: functions/customizer.php:72 functions/metabox.php:108
+msgid "Page Header Link"
+msgstr "Odkaz hlavičky stránky"
+
+#: functions/customizer.php:73
+msgid "Make your page header image clickable by adding a URL. (optional)"
+msgstr ""
+"Udělejte váš obrázek hlavičky stránky klikatelný přidáním URL. (volitelné)"
+
+#: functions/customizer.php:96 functions/metabox.php:113
+msgid "Hard Crop"
+msgstr "Oříznutí"
+
+#: functions/customizer.php:97
+msgid "Turn hard cropping or of off."
+msgstr "Zapněte nebo vypněte oříznutí."
+
+#: functions/customizer.php:100 functions/customizer.php:314
+#: functions/customizer.php:339 functions/customizer.php:364
+#: functions/customizer.php:389 functions/customizer.php:414
+#: functions/customizer.php:439 functions/customizer.php:634
+#: functions/customizer.php:658 functions/customizer.php:725
+#: functions/metabox.php:116
+msgid "Enable"
+msgstr "Povolit"
+
+#: functions/customizer.php:101 functions/customizer.php:315
+#: functions/customizer.php:340 functions/customizer.php:365
+#: functions/customizer.php:390 functions/customizer.php:415
+#: functions/customizer.php:440 functions/customizer.php:635
+#: functions/customizer.php:659 functions/customizer.php:726
+#: functions/metabox.php:115
+msgid "Disable"
+msgstr "Zakázat"
+
+#: functions/customizer.php:123 functions/metabox.php:122
+msgid "Image Width"
+msgstr "Šířka obrázku"
+
+#: functions/customizer.php:124
+msgid "Choose your image width in pixels. (integer only, default is 1200)"
+msgstr ""
+"Zvolte šířku vašeho obrázku v pixelech. (pouze celá čísla, výchozí je 1200)"
+
+#: functions/customizer.php:146 functions/metabox.php:127
+msgid "Image Height"
+msgstr "Výška obrázku"
+
+#: functions/customizer.php:147
+msgid ""
+"Choose your image height in pixels. Use \"0\" or leave blank for "
+"proportional resizing. (integer only, default is 0) "
+msgstr ""
+"Zvolte výšku vašeho obrázku v pixelech. Použijte \"0\" nebo nechte prázdné "
+"pro změnu velikosti se zachovám poměru stran. (pouze celá čísla, výchozí je "
+"0)"
+
+#: functions/customizer.php:172 functions/metabox.php:137
+#: functions/metabox.php:144 functions/metabox.php:151
+msgid "Page Header Video"
+msgstr "Video hlavičky stránky"
+
+#: functions/customizer.php:193
+msgid "Video Background URL (MP4 only)"
+msgstr "URL videa na pozadí (pouze MP4)"
+
+#: functions/customizer.php:214
+msgid "Video Background URL (OGV only)"
+msgstr "URL videa na pozadí (pouze OGV)"
+
+#: functions/customizer.php:235
+msgid "Video Background URL (WEBM only)"
+msgstr "URL videa na pozadí (pouze WEBM)"
+
+#: functions/customizer.php:256
+msgid "Overlay Color"
+msgstr "Barva překrytí"
+
+#: functions/customizer.php:268
+msgid "Page Header Content"
+msgstr "Obsah hlavičky stránky"
+
+#: functions/customizer.php:289 functions/metabox.php:162
+msgid "Content"
+msgstr "Obsah"
+
+#: functions/customizer.php:290
+msgid "Add your content to the page header. HTML and shortcodes allowed."
+msgstr ""
+"Přidejte váš obsah k hlavičce stránky. HTML a zkratky (shortcodes) jsou "
+"povoleny."
+
+#: functions/customizer.php:310
+msgid "Add Paragraphs"
+msgstr "Přidat odstavce"
+
+#: functions/customizer.php:311
+msgid "Wrap your text in paragraph tags automatically."
+msgstr "Zabalte váš text automaticky do tagů odstavců."
+
+#: functions/customizer.php:335
+msgid "Add Padding"
+msgstr "Přidat odsazení"
+
+#: functions/customizer.php:336
+msgid "Add padding around your content."
+msgstr "Přidejte odsazení okolo vašeho obsahu."
+
+#: functions/customizer.php:360
+msgid "Image Background"
+msgstr "Obrázek na pozadí"
+
+#: functions/customizer.php:361
+msgid ""
+"Use the image uploaded above as a background image for your content. "
+"(requires image uploaded above)"
+msgstr ""
+"Použijte obrázek nahraný výše jako obrázek na pozadí pro váš obsah. "
+"(vyžaduje obrázek nahraný výše)"
+
+#: functions/customizer.php:385
+msgid "Parallax Background"
+msgstr "Paralaxní pozadí"
+
+#: functions/customizer.php:386
+msgid ""
+"Add a cool parallax effect to your background image. (requires the image "
+"background option to be checked)"
+msgstr ""
+"Přidejte parádní paralaxový efekt k vašemu obrázku na pozadí. (vyžaduje "
+"zapnutí nastavení pozadí obrázku)"
+
+#: functions/customizer.php:410
+msgid "Full Screen"
+msgstr "Celá obrazovka"
+
+#: functions/customizer.php:411
+msgid "Make your page header content area full screen."
+msgstr "Udělejte obsahovou oblast vaší hlavičky stránky přes celou obrazovku."
+
+#: functions/customizer.php:435
+msgid "Vertical Center"
+msgstr "Vertikální vystředění"
+
+#: functions/customizer.php:436
+msgid "Center your page header content vertically."
+msgstr "Vystředí obsah vaší hlavičku stránky vertikálně."
+
+#: functions/customizer.php:460
+msgid "Container Type"
+msgstr "Typ prostoru"
+
+#: functions/customizer.php:461
+msgid "Choose whether the page header is contained or fluid."
+msgstr "Zvolte, jestli bude hlavička stránky omezená nebo proměnlivá."
+
+#: functions/customizer.php:464 functions/metabox.php:198
+msgid "Contained"
+msgstr "Omezený"
+
+#: functions/customizer.php:465 functions/metabox.php:199
+msgid "Fluid"
+msgstr "Proměnlivý"
+
+#: functions/customizer.php:485
+msgid "Text Alignment"
+msgstr "Zarovnání textu"
+
+#: functions/customizer.php:486
+msgid "Choose the horizontal alignment of your content."
+msgstr "Zvolte horizontální zarovnání vašeho obsahu."
+
+#: functions/customizer.php:489 functions/metabox.php:206
+msgid "Left"
+msgstr "Doleva"
+
+#: functions/customizer.php:490 functions/metabox.php:207
+msgid "Center"
+msgstr "Doprostřed"
+
+#: functions/customizer.php:491 functions/metabox.php:208
+msgid "Right"
+msgstr "Doprava"
+
+#: functions/customizer.php:511
+msgid "Top/Bottom Padding"
+msgstr "Vrchní/Spodní odsazení"
+
+#: functions/customizer.php:512
+msgid ""
+"Choose your content padding in pixels. This will add space above and below "
+"your content. (integer only) "
+msgstr ""
+"Zvolte odsazení vašeho obsahu v pixelech. Toto přidá mezeru nad a pod váš "
+"obsah. (pouze celá čísla)"
+
+#: functions/customizer.php:533
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: functions/customizer.php:554
+msgid "Text Color"
+msgstr "Barva textu"
+
+#: functions/customizer.php:575
+msgid "Link Color"
+msgstr "Barva odkazu"
+
+#: functions/customizer.php:596
+msgid "Link Color Hover"
+msgstr "Barva odkazu při přejetí myší"
+
+#: functions/customizer.php:609
+msgid "Page Header Advanced"
+msgstr "Pokročilá hlavička stránky"
+
+#: functions/customizer.php:630 functions/metabox.php:258
+msgid "Merge with site header"
+msgstr "Sloučit s hlavičkou stránky"
+
+#: functions/customizer.php:654 functions/metabox.php:263
+msgid "Place content behind header (sliders etc..)"
+msgstr "Umístit obsah před hlavičky (slidery atd...)"
+
+#: functions/customizer.php:679 functions/metabox.php:267
+msgid "Site title"
+msgstr "Název webu"
+
+#: functions/customizer.php:700 functions/metabox.php:272
+msgid "Site tagline"
+msgstr "Popis webu"
+
+#: functions/customizer.php:721 functions/metabox.php:277
+msgid "Transparent navigation"
+msgstr "Průhledná navigace"
+
+#: functions/customizer.php:746 functions/metabox.php:282
+msgid "Navigation text"
+msgstr "Text navigace"
+
+#: functions/customizer.php:767 functions/metabox.php:287
+msgid "Navigation background hover"
+msgstr "Pozadí navigace při přejetí myší"
+
+#: functions/customizer.php:788 functions/metabox.php:292
+msgid "Navigation text hover"
+msgstr "Text navigace při přejetí myší"
+
+#: functions/customizer.php:809 functions/metabox.php:297
+msgid "Navigation background current"
+msgstr "Aktuální pozadí navigace"
+
+#: functions/customizer.php:830 functions/metabox.php:302
+msgid "Navigation text current"
+msgstr "Aktuální text navigace"
+
+#: functions/customizer.php:843
+msgid "Page Header Logo"
+msgstr "Logo hlavičky stránky"
+
+#: functions/customizer.php:865
+msgid "Logo"
+msgstr "Logo"
+
+#: functions/customizer.php:866
+msgid "Replace your logo on the blog."
+msgstr "Nahradit vaše logo na blogu."
+
+#: functions/functions.php:548 functions/metabox.php:20
+msgid "Page Header"
+msgstr "Hlavička stránky"
+
+#: functions/functions.php:576
+msgid "Page Header Position"
+msgstr "Umístění hlavičky stránky"
+
+#: functions/functions.php:579 functions/functions.php:609
+msgid "Above Content Area"
+msgstr "Nad oblastí obsahu"
+
+#: functions/functions.php:580 functions/functions.php:610
+msgid "Inside Content Area"
+msgstr "Uvnitř oblasti obsahu"
+
+#: functions/functions.php:606
+msgid "Single Post Header Position"
+msgstr "Umístění hlavičky příspěvku"
+
+#: functions/functions.php:611
+msgid "Below Post Title"
+msgstr "Pod názvem příspěvku"
+
+#: functions/ie.php:14
+msgid "Warning: This will delete your settings."
+msgstr "Varování: Toto smaže vaše nastavení."
+
+#: functions/ie.php:16
+msgid "Delete Page Header Customizer Settings"
+msgstr "Smazat nastavení Přizpůsobení pro Hlavičku stránky"
+
+#: functions/ie.php:53
+msgid "Export Page Header Customizer Settings"
+msgstr "Exportovat nastavení Přizpůsobení pro Hlavičku stránky"
+
+#: functions/metabox.php:85
+msgid "Image Settings"
+msgstr "Nastavení obrázku"
+
+#: functions/metabox.php:86
+msgid "Video Settings"
+msgstr "Nastavení videa"
+
+#: functions/metabox.php:87
+msgid "Content Settings"
+msgstr "Nastavení obsahu"
+
+#: functions/metabox.php:89
+msgid "Logo Settings"
+msgstr "Nastavení loga"
+
+#: functions/metabox.php:91
+msgid "Advanced Settings"
+msgstr "Rozšířené nastavení"
+
+#: functions/metabox.php:102 functions/metabox.php:250
+msgid "Insert Image"
+msgstr "Vložit obrázek"
+
+#: functions/metabox.php:103 functions/metabox.php:251
+msgid "Add Image"
+msgstr "Přidat obrázek"
+
+#: functions/metabox.php:129
+msgid "Use \"0\" or leave blank for proportional resizing."
+msgstr ""
+"Použijte \"0\" nebo nechte prázdné pro změnu velikosti se zachováním poměru "
+"stran."
+
+#: functions/metabox.php:135
+msgid "Video background - MP4 file only"
+msgstr "Video pozadí - pouze MP4 soubory"
+
+#: functions/metabox.php:137 functions/metabox.php:144
+#: functions/metabox.php:151
+msgid "Insert Video"
+msgstr "Vložit video"
+
+#: functions/metabox.php:138 functions/metabox.php:145
+#: functions/metabox.php:152
+msgid "Add Video"
+msgstr "Přidat video"
+
+#: functions/metabox.php:142
+msgid "Video background - OGV file only"
+msgstr "Video pozadí - pouze OGV soubory"
+
+#: functions/metabox.php:149
+msgid "Video background - WEBM file only"
+msgstr "Video pozadí - pouze WEBM soubory"
+
+#: functions/metabox.php:156
+msgid "Overlay color"
+msgstr "Barva překryvu"
+
+#: functions/metabox.php:164
+msgid "HTML and shortcodes allowed."
+msgstr "HTML a zkratky (shortcodes) jsou povoleny."
+
+#: functions/metabox.php:169
+msgid "Automatically add paragraphs"
+msgstr "Automaticky vytvářet odstavce"
+
+#: functions/metabox.php:172
+msgid "Add padding"
+msgstr "Přidat odsazení"
+
+#: functions/metabox.php:175
+msgid "Add background image"
+msgstr "Přidat obrázek na pozadí"
+
+#: functions/metabox.php:178
+msgid "Parallax effect"
+msgstr "Paralaxový efekt"
+
+#: functions/metabox.php:181
+msgid "Fullscreen"
+msgstr "Celá obrazovka"
+
+#: functions/metabox.php:184
+msgid "Vertical center content"
+msgstr "Vystředit obsah vertikálně"
+
+#: functions/metabox.php:189
+msgid "Add to blog excerpt"
+msgstr "Přidat k blogovému úryvku"
+
+#: functions/metabox.php:196
+msgid "Container type"
+msgstr "Typ prostoru"
+
+#: functions/metabox.php:204
+msgid "Text alignment"
+msgstr "Zarovnání textu"
+
+#: functions/metabox.php:213
+msgid "Top/Bottom padding"
+msgstr "Vrchní/Spodní odsazení"
+
+#: functions/metabox.php:219
+msgid "Background color"
+msgstr "Barva pozadí"
+
+#: functions/metabox.php:224
+msgid "Text color"
+msgstr "Barva textu"
+
+#: functions/metabox.php:229
+msgid "Link color"
+msgstr "Barva odkazu"
+
+#: functions/metabox.php:234
+msgid "Link color hover"
+msgstr "Barva odkazu při přejetí kurzorem myši"
+
+#: functions/metabox.php:248 functions/metabox.php:250
+msgid "Header / Logo"
+msgstr "Hlavička / Logo"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "Je dostupná nová verze %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+#~ "\"%2$s\">Zobrazit podrobnosti o verzi %3$s</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Je dostupná nová verze %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+#~ "\"%2$s\">Zobrazit podrobnosti o verzi %3$s</a> nebo <a href=\"%4$s"
+#~ "\">aktualizovat nyní</a>."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Nemáte oprávnění k instalaci aktualizací pluginů"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "License failed."
+#~ msgstr "Licence selhala."
+
+#~ msgid "License activated."
+#~ msgstr "Licence aktivována."
+
+#~ msgid "License deactivated."
+#~ msgstr "Licence deaktivována."
+
+#~ msgid "Updates %s"
+#~ msgstr "Aktualizace %s"
+
+#~ msgid "Help"
+#~ msgstr "Nápověda"
+
+#~ msgid "License Key"
+#~ msgstr "Licenční klíč"
+
+#~ msgid "Update"
+#~ msgstr "Aktualizovat"
+
+#~ msgid "Add a page header to your blog."
+#~ msgstr "Přidejte hlavičku stránky k vašemu blogu."
+
+#~ msgid ""
+#~ "This will only show up on the page you have set as your \"Posts Page\". "
+#~ "To add a page header to specific pages, use the metabox included while "
+#~ "adding your content."
+#~ msgstr ""
+#~ "Zobrazí se pouze na stránce, kterou jste nastavili jako vaši \"Stránku "
+#~ "příspěvků\". Pro přidání hlavičky stránky konkrétním stránkám, použijte "
+#~ "infobox při vkládání vašeho obsahu."
+
+#~ msgid "Publish"
+#~ msgstr "Publikovat"
+
+#~ msgid "Save Settings"
+#~ msgstr "Uložit nastavení"
+
+#~ msgid ""
+#~ "Use these options to add a page header to your Blog. Add page headers to "
+#~ "your pages by using the metabox while editing them."
+#~ msgstr ""
+#~ "Použijte tyto nastavení k přidání hlavičky stránky k vašemu blogu. "
+#~ "Přidejte hlavičky stránek k vašim stránkám použitím infoboxu, zatímco je "
+#~ "upravujete."
+
+#~ msgid "Image Options"
+#~ msgstr "Nastavení obrázku"
+
+#~ msgid "Upload an image to use in your page header"
+#~ msgstr "Nahrajte obrázek, který bude použit ve vaší hlavičce stránky"
+
+#~ msgid ""
+#~ "Choose your image height in pixels. Use \"0\" or leave blank to calculate "
+#~ "height based on width. (integer only, default is 0) "
+#~ msgstr ""
+#~ "Zvolte výšku vašeho obrázku v pixelech. Použijte \"0\" nebo nechte "
+#~ "prázdné pro výpočet výšky v závislosti na šířce. (pouze celá čísla, "
+#~ "výchozí je 0)"
+
+#~ msgid "Content Options"
+#~ msgstr "Nastavení obsahu"
+
+#~ msgid "Add content to your page header"
+#~ msgstr "Přidejte obsah k vaší hlavičce stránky"
+
+#~ msgid "Link Hover Color"
+#~ msgstr "Barva odkazu při přejetí myší"
+
+#~ msgid "Metabox configuration is required to have an ID parameter"
+#~ msgstr "Je vyžadována konfigurace infoboxu, abyste měli ID parametr"
+
+#~ msgid "Click to toggle"
+#~ msgstr "Kliknutím přepnout"
+
+#~ msgid "Please Try Again"
+#~ msgstr "Prosím, zkuste to znovu"
+
+#~ msgid "Remove Embed"
+#~ msgstr "Odstranit vložený prvek"
+
+#~ msgid "No oEmbed Results Found for %s. View more info at"
+#~ msgstr "Nebyly nalezeny žádné oEmbed výsledky pro %s. Více informací na"
+
+#~ msgid "Add Group"
+#~ msgstr "Přidat skupinu"
+
+#~ msgid "Remove Group"
+#~ msgstr "Odstranit skupinu"
+
+#~ msgid "None"
+#~ msgstr "Žádné"
+
+#~ msgid "Add Row"
+#~ msgstr "Přidat řadu"
+
+#~ msgid "Remove"
+#~ msgstr "Odstranit"
+
+#~ msgid "No terms"
+#~ msgstr "Bez termínů"
+
+#~ msgid "Add or Upload Files"
+#~ msgstr "Přidat nebo nahrát soubory"
+
+#~ msgid "Add or Upload File"
+#~ msgstr "Přidat nebo nahrát soubor"
+
+#~ msgid "Remove Image"
+#~ msgstr "Odstranit obrázek"
+
+#~ msgid "File:"
+#~ msgstr "Soubor:"
+
+#~ msgid "Download"
+#~ msgstr "Stáhnout"
+
+#~ msgid "Clear"
+#~ msgstr "Vymazat"
+
+#~ msgid "Default"
+#~ msgstr "Výchozí"
+
+#~ msgid "Select Color"
+#~ msgstr "Vybrat barvu"
+
+#~ msgid "Current Color"
+#~ msgstr "Aktuální barva"
+
+#~ msgid "mm/dd/yy"
+#~ msgstr "mm/dd/yy"
+
+#~ msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+#~ msgstr "Neděle, Pondělí, Úterý, Středa, Čtvrtek, Pátek, Sobota"
+
+#~ msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+#~ msgstr "Ne, Po, Út, St, Čt, Pá, So"
+
+#~ msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+#~ msgstr "Ned, Pon, Úte, Stř, Čtv, Pát, Sob"
+
+#~ msgid ""
+#~ "January, February, March, April, May, June, July, August, September, "
+#~ "October, November, December"
+#~ msgstr ""
+#~ "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, "
+#~ "Listopad, Prosinec"
+
+#~ msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+#~ msgstr "Led, Úno, Bře, Dub, Kvě, Čer, Čvc, Srp, Zář, Říj, Lis, Pro"
+
+#~ msgid "Next"
+#~ msgstr "Další"
+
+#~ msgid "Prev"
+#~ msgstr "Předchozí"
+
+#~ msgid "Today"
+#~ msgstr "Dnes"
+
+#~ msgid "Done"
+#~ msgstr "Hotovo"
+
+#~ msgid "Choose Time"
+#~ msgstr "Zvolit čas"
+
+#~ msgid "Time"
+#~ msgstr "Čas"
+
+#~ msgid "Hour"
+#~ msgstr "Hodina"
+
+#~ msgid "Minute"
+#~ msgstr "Minuta"
+
+#~ msgid "Second"
+#~ msgstr "Sekunda"
+
+#~ msgid "Now"
+#~ msgstr "Teď"
+
+#~ msgid "hh:mm TT"
+#~ msgstr "hh:mm TT"
+
+#~ msgid "Use this file"
+#~ msgstr "Použít tento soubor"
+
+#~ msgid "Select / Deselect All"
+#~ msgstr "Vybrat / Zrušit výběr všeho"
+
+#~ msgid "Save"
+#~ msgstr "Uložit"
+
+#~ msgid "Use \"0\" or leave blank to calculate height based on width."
+#~ msgstr ""
+#~ "Použijte \"0\" nebo nechte prázdné pro výpočet výšky v závislosti na "
+#~ "šířce. "
+
+#~ msgid "Use image (from image tab) as a background image?"
+#~ msgstr "Použít obrázek (z karty s obrázkem) jako obrázek na pozadí?"
+
+#~ msgid "Add parallax effect to background image?"
+#~ msgstr "Přidat paralaxový efekt k obrázku na pozadí?"
+
+#~ msgid "Make background image full screen?"
+#~ msgstr "Obrázek na pozadí na celou obrazovku?"
+
+#~ msgid "Center your content vertically?"
+#~ msgstr "Vystředit váš obsah vertikálně?"
+
+#~ msgid "Add to blog excerpt (if no Featured Image is set)"
+#~ msgstr "Přidat do blogového úryvku (pokud není vybrán Náhledový obrázek)"
+
+#~ msgid ""
+#~ "Want updates served directly to your Dashboard? Activate the email you "
+#~ "purchased your add-ons with here."
+#~ msgstr ""
+#~ "Chcete aktualizace dodávat přímo do vaší Nástěnky? Aktivujte zde email, "
+#~ "kterým jste zakoupili vaše doplňky."
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Deactivate Email"
+#~ msgstr "Deaktivovat email"
+
+#~ msgid "Activate Email"
+#~ msgstr "Aktivovat email"
+
+#~ msgid "Save Email"
+#~ msgstr "Uložit email"
+
+#~ msgid "Enable All Updates"
+#~ msgstr "Povolit všechny aktualizace"
+
+#~ msgid "Disable Updates"
+#~ msgstr "Zakázat aktualizace"
+
+#~ msgid "Enable Updates"
+#~ msgstr "Povolit aktualizace"
+
+#~ msgid "Email activation failed. This email does not exist in our records."
+#~ msgstr "Aktivace emailu selhala. Tento email v našich záznamech neexistuje."
+
+#~ msgid "Email activated."
+#~ msgstr "Email aktivován."
+
+#~ msgid "Email deactivated."
+#~ msgstr "Email deaktivován."
+
+#~ msgid "Licenses activated."
+#~ msgstr "Licence aktivovány."
+
+#~ msgid "Deactivation failed."
+#~ msgstr "Deaktivace selhala."
