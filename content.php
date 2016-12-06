@@ -7,7 +7,7 @@ $key = 'followed_authors';
 $usermeta = get_user_meta($thisuser->ID,$key,true);
 $user_id = $thisuser->ID;
 //update_user_meta($thisuser->ID,$key,'[3,4]');
-echo $usermeta;
+//echo $usermeta;
 if(is_author($thisauthor)){
   // if this is an author archive
   $args = array('post_type' => 'need','author_name'=>$thisauthor);

@@ -1,4 +1,0 @@
-[19-Aug-2016 02:14:31 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/lessergo/public_html/smallworldbiggod.com/wp-content/themes/astrid/template-parts/content-page.php on line 40
-[19-Aug-2016 02:14:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/lessergo/public_html/smallworldbiggod.com/wp-content/themes/astrid/template-parts/content-page.php on line 40
-[19-Aug-2016 02:14:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/lessergo/public_html/smallworldbiggod.com/wp-content/themes/astrid/template-parts/content-page.php on line 40
-[17-Sep-2016 06:56:28 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/lessergo/public_html/smallworldbiggod.com/wp-settings.php on line 21

@@ -23,7 +23,7 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-<script src="http://lessergood.org/wp-content/antiquated.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script>
 <?php wp_head(); ?>
 </head>
 
@@ -43,6 +43,10 @@
 			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div>
+	  <div class="right search-container" style="margin-top: 10px;">
+		<?php include(locate_template('search-form-causes.php')); ?>
+		<a href="//lessergood.org/causes">browse all causes</a>
+	  	</div>
 <?php endif; ?>
 
 		<?php $header_image = get_header_image();

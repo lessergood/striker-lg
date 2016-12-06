@@ -13,6 +13,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="blog-content">
+	  <br /><br />
 		<?php
 			/* translators: %s: Name of current post */
 			the_content();
@@ -20,17 +21,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php
-			edit_post_link(
-				sprintf(
-					/* translators: %s: Name of current post */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-					get_the_title()
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 <?php endwhile; else: ?>

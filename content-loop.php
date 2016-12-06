@@ -27,7 +27,7 @@
   ?>	
 	<div class="post">
 		<div class="post-header">
-		  <?php if(get_the_author_meta('user_pic')){$avatar = get_the_author_meta('user_pic');}else{$avatar = '/wp-content/uploads/2016/10/default-user.jpg';} ?>
+		  <?php if(get_the_author_meta('upme_user_pic_thumb')){$avatar = get_the_author_meta('upme_user_pic_thumb');}else{$avatar = 'https://1.gravatar.com/avatar/72c354ec39b352bd9cb7d07d7bc324e7?s=50&d=mm&r=g';} ?>
 				<div class="post-avatar left"><img style="width: 42px;" src="<?php echo $avatar; ?>" /></div>
 				<div class="post-meta left">
 					<h1 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
@@ -37,16 +37,15 @@
 					</span>
 						<span class="post-author">
 						  <span class="fa fa-fw fa-user text-dark" title="Post Author"></span>
-						  <?php the_author_posts_link(); ?>
-				  		</span>
-							<!--<button class="follow-author" data-authorid="<?php echo get_the_author_meta('ID'); ?>" data-userid="<?php echo $user_id ?>" data-field="<?php echo $key; ?>">Follow</button>-->
+						  <?php the_author_posts_link(); ?></span>
+					<!--<button class="follow-author" data-authorid="<?php echo get_the_author_meta('ID'); ?>" data-userid="<?php echo $user_id ?>" data-field="<?php echo $key; ?>">Follow</button>-->
 					 		&nbsp;
 					<span class="need-country">
 					<?php 
 					  	$need_country = get_field( "need_country");
 						if($need_country){
+						  //echo '<span class="fa fa-fw fa-globe text-dark" title="Country"></span>&nbsp;<a href="/'.$need_country->taxonomy.'/'.$need_country->slug.'">'.$need_country->name.'</a>';
 						  echo '<span class="fa fa-fw fa-globe text-dark" title="Country"></span>&nbsp;'.$need_country->name;
-						  //echo '<a href="/'.$need_country->taxonomy.'/'.$need_country->slug.'">'.$need_country->name.'</a>';
 						}
 					?>
 					</span>
@@ -56,8 +55,8 @@
 						$need_project_type = get_field( "need_project_type");
 						if($need_project_type){
 							echo '&nbsp;';
-						  	echo '<span class="fa fa-fw fa-gears text-dark" title="Project Type"></span>&nbsp;'.$need_project_type->name;
-						  //echo '<a href="/'.$need_project_type->taxonomy.'/'.$need_project_type->slug.'">'.$need_project_type->name.'</a>';
+						  //echo '<span class="fa fa-fw fa-gears text-dark" title="Project Type"></span>&nbsp;<a href="/'.$need_project_type->taxonomy.'/'.$need_project_type->slug.'">'.$need_project_type->name.'</a>';
+						echo '<span class="fa fa-fw fa-gears text-dark" title="Project Type"></span>&nbsp;'.$need_project_type->name;
 						}
 					?>
 					</span>

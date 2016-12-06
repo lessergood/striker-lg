@@ -18,7 +18,7 @@
 </div><!-- #primary .content-area -->
 <div id="secondary">
 	<div class="widget">
-	  	<div class="widget-content">
+	  	<div class="widget-content followed-causes">
 		  <h3 class="widget-title">Causes You Follow:</h3>
 		  <?php 
 			foreach($causes as $causeid){
@@ -30,10 +30,10 @@
 			  ?>
 		  <div class="cause-avatar left"><img style="width: 32px;" src="<?php echo $cause_avatar; ?>" /></div>
 		  <div class="cause-info left" style="margin-left: 10px; margin-top: -2px;">
-			<h2 class="cause-name" style="font-size: 24px; line-height: 1em;"><?php echo $cause_meta['first_name'][0].' '.$cause_meta['last_name'][0] ?></h2>
+			<h2 class="cause-name" style="font-size: 24px; line-height: 1em; color: #0094FF;"><?php echo $cause_meta['first_name'][0].' '.$cause_meta['last_name'][0] ?></h2>
 			<span class="cause-org-name"><?php echo $cause_meta['org_name'][0] ?></span>
 		  	<a href="http://lsrgd.in/<?php echo $cause_meta['nickname'][0]; ?>">Visit</a>
-			<div class="cause-name" style="font-style: italic;"><?php echo $cause_meta['service_location'][0] ?>&nbsp;</div>
+			<div class="cause-name gray" style="font-style: italic;"><?php echo $cause_meta['service_location'][0] ?>&nbsp;</div>
 		  </div>
 		  <div class="clear"></div>
 	  <?php } ?>
